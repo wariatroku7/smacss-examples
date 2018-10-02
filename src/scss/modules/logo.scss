@@ -1,0 +1,23 @@
+.logo {
+  background-color: transparent;
+
+  > a {
+    text-decoration: none;
+
+    > img {
+      height: 10rem;
+      width: auto;
+    }
+  }
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  // Sub module class name - logo-navbar
+  &-navbar {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
