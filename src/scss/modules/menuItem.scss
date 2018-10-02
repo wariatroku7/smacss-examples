@@ -1,0 +1,17 @@
+.menuItem {
+  display: flex;
+  background-color: #ffa560;
+
+  > li {
+    color: #09f;
+
+    > a {
+      text-decoration: underline;
+
+      > i {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+}
